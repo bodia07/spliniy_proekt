@@ -1,0 +1,60 @@
+header{
+    background: url('https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg?t=st=1713977970~exp=1713981570~hmac=f011a6ed7259e5f4eadc7c5a8f519b1729d829570ad16a9ce61e53fa76a6e015&w=996'); 
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+
+h1{
+    margin-left: 20px; 
+    margin-bottom: 20px;
+    color: #fffbc9;
+    font-family: cursive;
+
+}
+
+a{
+    margin: 60px;
+    font-family: cursive;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+body{
+    background: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-backgroundbusiness-reportdigitalwebsite-templatebackdrop_1258-52758.jpg?t=st=1714581202~exp=1714584802~hmac=49b338d7d64b9fb473a22407d18b1a08238af8b34a557b24b717cef3f1db5fc1&w=740');
+}
+
+h2{
+    font-family: cursive;
+    color: black;
+}
+
+#home{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 22px;
+    font-family: cursive;
+    color: white;
+}
+
+.main-text{
+    color: black;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    height: 10px;
+    width: 15px;
+}
+
+.fah{
+    font-size: 15px;
+}
