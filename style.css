@@ -48,13 +48,7 @@ p{
 .main-text{
     color: black;
     text-align: center;
-}
-
-div{
-    text-align: center;
-    height: 10px;
-    width: 15px;
-}
+    
 
 .fah{
     font-size: 15px;
@@ -90,29 +84,29 @@ div{
     flex-direction: column;
     align-items: left;
     gap: 40px;
-    width: 50%;
-    height: 60%;
+    width: 300px;
+    height: 500px;
 }
 
 .aply-form input{
     width: 300px;
     height: 1px;
     padding: 15px;
-    border: 2px solid rgb(57, 167, 207);
+    border: 2px solid rgb(50, 85, 98);
 }
 
 .aply-form textarea{
     width: 300px;
     padding: 15px;
-    border: 2px solid rgb(57, 167, 207);
+    border: 2px solid rgb(50, 85, 98);
 }
 
 .aply-form button{
     background-color: #11c574;
-    color: azure;
+    color: rgb(78, 101, 101);
     padding: 3px 10px;
     border: 2px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: right;
 }
