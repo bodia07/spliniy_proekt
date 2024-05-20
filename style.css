@@ -52,6 +52,7 @@ p{
 
 }
 
+
 .fah{
     font-size: 15px;
     text-align: center;
@@ -71,7 +72,7 @@ p{
 .modal-window{
     background-color: #11c574;
     width: 40%;
-    height: 80%;
+    height: 67%;
     margin: 5% auto;
     max-width:  1100px;
     padding: 20px;
@@ -84,7 +85,7 @@ p{
 .aply-form{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     gap: 20px;
     width: 300px;
     height: 500px;
@@ -117,4 +118,10 @@ form .btn{
     display: flex;
     gap: 20px;
 
+}
+.id{
+    background: rgb(176, 106, 36);
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
 }
