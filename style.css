@@ -204,14 +204,30 @@ form .btn{
 
 footer{
     background-color: rgba(0, 0, 0, 0.744);
-    width: 100%;
-    height: 50px;
+
+    height: 150px;
+    padding: 20px;
 }
-.footer{
+
+.footer-text{ 
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    
 
+ }
+ 
+.footer img{
+    height: 75px;
+    width: 75px;
+    
+
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    
 }
