@@ -1,9 +1,13 @@
+
+body{
+    margin: 0;
+}
 header{
     background: url('https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg?t=st=1713977970~exp=1713981570~hmac=f011a6ed7259e5f4eadc7c5a8f519b1729d829570ad16a9ce61e53fa76a6e015&w=996'); 
     margin:0;
     padding:0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 100px;
     width: 100%;
@@ -124,6 +128,9 @@ p{
     gap: 35px;
     flex-wrap: wrap;
     align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 
