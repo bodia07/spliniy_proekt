@@ -1,6 +1,5 @@
 header{
-    background: url('https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg?t=st=1713977970~exp=1713981570~hmac=f011a6ed7259e5f4eadc7c5a8f519b1729d829570ad16a9ce61e53fa76a6e015&w=996'),100%;
-    
+    background: url('https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg?t=st=1713977970~exp=1713981570~hmac=f011a6ed7259e5f4eadc7c5a8f519b1729d829570ad16a9ce61e53fa76a6e015&w=996'); 
     margin:0;
     padding:0;
     display: flex;
@@ -26,7 +25,7 @@ a{
 }
 
 body{
-    background: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-backgroundbusiness-reportdigitalwebsite-templatebackdrop_1258-52758.jpg?t=st=1714581202~exp=1714584802~hmac=49b338d7d64b9fb473a22407d18b1a08238af8b34a557b24b717cef3f1db5fc1&w=740');
+    background: url('https://img.freepik.com/free-photo/grunge-gray-concrete-textured-background_53876-129715.jpg?t=st=1715793143~exp=1715796743~hmac=b6cfbfb37997d38d0c552b893e0e50bbbbd82fd10fdc2feabbc7f4d660256505&w=996');
 }
 
 h2{
@@ -34,7 +33,7 @@ h2{
     color: black;
 }
 
-#home{
+#home, .fahiv{
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
@@ -52,11 +51,81 @@ p{
 
 }
 
-
-.fah{
-    font-size: 15px;
+.fahiv{
     text-align: center;
+    width: 350px;
 }
+
+.modal-bg{
+    display: none;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #ffffff45;
+}
+
+.modal-window{
+    background: rgba(24, 108, 98, 0.76);
+    margin: 5px auto;
+    width: 50%;
+    height: 50%;
+    max-width:  1100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.aply-form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    width: 300px;
+    height: 500px;
+}
+
+.aply-form input{
+    width: 300px;
+    height: 3px;
+    padding: 15px;
+    border: 2px solid rgb(50, 85, 98);
+}
+
+.aply-form textarea{
+    width: 300px;
+    padding: 15px;
+    border: 2px solid rgb(50, 85, 98);
+}
+
+.aply-form button{
+    background-color: #11c574;
+    color: rgb(78, 101, 101);
+    padding: 3px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+.aply-form btn{
+    display: flex;
+    gap: 20px;
+
+}
+
+.txt, .proff{
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 
 .modal-bg{
     display: none;
